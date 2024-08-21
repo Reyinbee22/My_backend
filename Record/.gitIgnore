@@ -1,0 +1,31 @@
+# Ignore the virtual environment folder
+Record/
+
+# Ignore compiled Python files
+*.pyc
+__pycache__/
+
+# Ignore Django migrations
+*/migrations/
+
+# Ignore database files
+*.sqlite3
+
+# Ignore environment variable files
+.env
+
+# Ignore IDE/editor specific files
+.vscode/
+.idea/
+
+# Ignore bytecode cache
+__pycache__/
+
+# Ignore local settings files
+settings_local.py
+
+# Ignore the Django secret key file
+secret_key.txt
+
+# Ignore other sensitive files
+.DS_Store
